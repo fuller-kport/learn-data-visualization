@@ -9,6 +9,7 @@ module.exports = defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         movies: resolve(__dirname, "examples/movies/index.html"),
+        cars: resolve(__dirname, "examples/cars/index.html"),
       },
     },
   },
