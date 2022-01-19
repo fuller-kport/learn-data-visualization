@@ -1,7 +1,7 @@
 import embed from "vega-embed";
 import * as vl from "vega-lite-api";
 
-fetch("/vgsales.csv")
+fetch("/learn-data-visualization/vgsales.csv")
   .then((response) => response.text())
   .then(parseVideoGameSalesCSV)
   .then(renderChart);
