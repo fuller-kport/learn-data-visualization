@@ -10,6 +10,7 @@ module.exports = defineConfig({
         main: resolve(__dirname, "index.html"),
         movies: resolve(__dirname, "examples/movies/index.html"),
         cars: resolve(__dirname, "examples/cars/index.html"),
+        gapminder: resolve(__dirname, "examples/gapminder/index.html"),
       },
     },
   },
